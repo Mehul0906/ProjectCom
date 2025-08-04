@@ -1,5 +1,4 @@
-import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import "../css/Home.css";
 import "../css/RotatingTextFrame.css"
 // import godImg from "../assets/GOD-removebg-preview.png";
@@ -12,8 +11,6 @@ import UpComingVinkarDay from "../assets/UpComingVinkarDay.jpeg";
 import Carousel from "react-bootstrap/Carousel";
 import "../css/Carousel.css";
 import SAMAJVIDEO from "../assets/SAMAJVIDEO.mp4";
-import BannerFirst from "../assets/BannerFirst.jpg";
-import BannerSecond from "../assets/BannerSecond.jpg";
 import HomePageBanner3Third from "../assets/HomePageBanner3Third.jpeg";
 import LogoBanner from "../assets/LogoBanner.png";
 // import BannerThird from "../assets/BannerThird.jpg";
