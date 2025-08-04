@@ -1,0 +1,160 @@
+.main-footer {
+  background-color: #1e1f21;
+  color: #ddd;
+  padding: 60px 20px 20px;
+  font-size: 0.95rem;
+}
+
+.main-footer .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.footer-column {
+  flex: 1 1 280px;
+}
+
+.footer-column h5 {
+  color: #fff;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+/* .footer-column h5::after,
+.footer-column h6::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: #007bff;
+  display: block;
+  margin-top: 5px;
+} */
+
+.footer-column h6 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-column p,
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+  background: #2c2c2c;
+  padding: 8px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-size: 36px;
+}
+
+.footer-social a:hover {
+  background: #007bff;
+}
+
+.newsletter-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter-form input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  background: #333;
+  color: #fff;
+  width: 70%;
+}
+
+.newsletter-form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+  background: #0056b3;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-form input,
+  .newsletter-form button {
+    width: 100%;
+    border-radius: 20px;
+    margin: 5px 0;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+}
+
+.main-footer {
+  animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
