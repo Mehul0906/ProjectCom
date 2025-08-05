@@ -56,8 +56,6 @@ const Home = () => {
     };
   }, []);
 
-  const text = "ytinummoC ruO tuobA ytinummoC ruO tuobA";
-  const characters = text.split("");
   return (
     <div>
       {/* Hero Section */}
